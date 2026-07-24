@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python-envs.defaultEnvManager": "ms-python.python:poetry",
+  "python-envs.defaultPackageManager": "ms-python.python:poetry",
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}
