@@ -1,0 +1,59 @@
+# Python
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
+# IDEs e editores
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs, relatórios e saídas locais
+*.log
+output/
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Sistema operacional
+.DS_Store
+Desktop.ini
+Thumbs.db
+.Trash-*
+
+# Arquivos temporários
+*.tmp
+*.temp
+*~
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Dados brutos
+data/raw/**
+!data/raw/
+!data/raw/.gitkeep
+
+# Gestão
+.project-management/
